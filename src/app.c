@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
     lua_rawset(L, -3);
   }
 
-  lua_setglobal(L, "args");
+  lua_setglobal(L, "arg");
 
   if (lua_pcall(L, 0, 0, 0))
     bail(L, "lua_pcall() failed");

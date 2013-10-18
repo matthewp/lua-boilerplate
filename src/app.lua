@@ -1,4 +1,4 @@
-for i = 1, #args do
-  local str = string.format("Arg %i is %q", i, args[i])
+for i = 1, #arg do
+  local str = string.format("Arg %i is %q", i, arg[i])
   print(str)
 end
